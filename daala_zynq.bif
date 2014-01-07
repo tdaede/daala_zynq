@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]/home/thomas/zedboard_CTT_v2013_2_130807/zynq_fsbl_0.elf
+	/home/thomas/daala_zynq/daala_zynq.runs/impl_1/daala_zynq_wrapper.bit	
+	/home/thomas/sd_image/u-boot.elf
+}
