@@ -100,13 +100,6 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>daala_idct4_stream_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="daala_idct4_stream" spirit:vendor="thomasdaede.com" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">daala_zynq_daala_idct4_stream_0_1</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>axis_dwidth_converter_0</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axis_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="1.1"/>
         <spirit:configurableElementValues>
@@ -152,6 +145,13 @@
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">daala_zynq_axi_bram_ctrl_0_bram_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="Memory_Type">True_Dual_Port_RAM</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="use_bram_block">BRAM_Controller</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>daala_idct4_stream_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="daala_idct4_stream" spirit:vendor="thomasdaede.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">daala_zynq_daala_idct4_stream_0_1</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -242,7 +242,6 @@
         <spirit:internalPortReference spirit:componentRef="processing_system7_0_axi_periph" spirit:portRef="M01_ARESETN"/>
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="S00_ARESETN"/>
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="M00_ARESETN"/>
-        <spirit:internalPortReference spirit:componentRef="daala_idct4_stream_0" spirit:portRef="axis_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="axis_dwidth_converter_0" spirit:portRef="aresetn"/>
         <spirit:internalPortReference spirit:componentRef="daala_4x4_transpose_0" spirit:portRef="axis_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="axis_dwidth_converter_1" spirit:portRef="aresetn"/>
@@ -250,6 +249,7 @@
         <spirit:internalPortReference spirit:componentRef="axi_bram_ctrl_0" spirit:portRef="s_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="M01_ARESETN"/>
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="S01_ARESETN"/>
+        <spirit:internalPortReference spirit:componentRef="daala_idct4_stream_0" spirit:portRef="axis_aresetn"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>proc_sys_reset_interconnect_aresetn</spirit:name>
@@ -273,7 +273,6 @@
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="S00_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="ACLK"/>
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="M00_ACLK"/>
-        <spirit:internalPortReference spirit:componentRef="daala_idct4_stream_0" spirit:portRef="axis_aclk"/>
         <spirit:internalPortReference spirit:componentRef="axis_dwidth_converter_0" spirit:portRef="aclk"/>
         <spirit:internalPortReference spirit:componentRef="daala_4x4_transpose_0" spirit:portRef="axis_clk"/>
         <spirit:internalPortReference spirit:componentRef="axis_dwidth_converter_1" spirit:portRef="aclk"/>
@@ -281,6 +280,7 @@
         <spirit:internalPortReference spirit:componentRef="axi_bram_ctrl_0" spirit:portRef="s_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="M01_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="axi_mem_intercon" spirit:portRef="S01_ACLK"/>
+        <spirit:internalPortReference spirit:componentRef="daala_idct4_stream_0" spirit:portRef="axis_aclk"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
     <spirit:hierConnections>

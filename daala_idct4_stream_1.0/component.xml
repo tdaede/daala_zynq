@@ -435,8 +435,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Daala IDCT4 stream</xilinx:displayName>
       <xilinx:vendorURL>http://thomasdaede.com</xilinx:vendorURL>
-      <xilinx:coreRevision>14</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2014-01-05T20:31:49Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>15</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2014-01-21T21:19:07Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.3</xilinx:xilinxVersion>
