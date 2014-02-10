@@ -22,36 +22,8 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/bd/daala_zynq/ip/daala_zynq_daala_idct4_mmap_0_0/daala_zynq_daala_idct4_mmap_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PDATADIR/sources_1/ports.xml">
       <FileInfo SFType="PortsDb">
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/daala_zynq/ip/daala_zynq_daala_idct4_stream_0_0/daala_zynq_daala_idct4_stream_0_0.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/daala_zynq/ip/daala_zynq_daala_idct4_stream_0_1/daala_zynq_daala_idct4_stream_0_1.upgrade_log">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/daala_zynq/ip/daala_zynq_daala_4x4_transpose_0_0/daala_zynq_daala_4x4_transpose_0_0.upgrade_log">
-      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
