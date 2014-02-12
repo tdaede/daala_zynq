@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Mon Jan  6 20:34:30 2014
+# Process ID: 10901
+# Log file: /home/thomas/daala_zynq/daala_4x4_transpose_1.0/edit_ip.runs/synth_1/daala_4x4_transpose_v1_0.rds
+# Journal file: /home/thomas/daala_zynq/daala_4x4_transpose_1.0/edit_ip.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source daala_4x4_transpose_v1_0.tcl

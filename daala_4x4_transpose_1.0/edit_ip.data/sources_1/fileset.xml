@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/hdl/daala_4x4_transpose_v1_0.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="0"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/component.xml">
+      <FileInfo SFType="IPXACT">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="daala_4x4_transpose_v1_0"/>
+      <Option Name="TopRTLFile" Val="$PPRDIR/hdl/daala_4x4_transpose_v1_0.v"/>
+      <Option Name="IPRepoPath" Val="/home/thomas/daala_zynq/daala_4x4_transpose_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../daala_idct4_stream_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../daala_idct4_mmap_1.0"/>
+    </Config>
+  </FileSet>
+</DARoots>
